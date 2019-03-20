@@ -12,6 +12,7 @@ func main() {
 	score := 0
 
 	URL := os.Args[1]
+
 	fmt.Println(URL)
 	fmt.Println("HelmetCheck v0.01-Alpha")
 	res, err := http.Get(URL)
